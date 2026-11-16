@@ -50,7 +50,7 @@ python -m venv .venv
 pip install -r requirements.txt
 
 pytest -q
-python app.py
+python main.py
 mypy .
 black --check .
 ruff check .

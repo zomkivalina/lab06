@@ -69,6 +69,10 @@ def base_demo() -> None:
     print(f"@wraps: __name__={file_size.__name__!r}, __doc__={file_size.__doc__!r}")
 
 
-if __name__ == "__main__":
+def run() -> None:
     file_demo()
     base_demo()
+
+
+if __name__ == "__main__":
+    run()
